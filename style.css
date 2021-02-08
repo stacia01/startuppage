@@ -1,0 +1,44 @@
+body, html{
+	width: 100%;
+	height:100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url("https://wallpaperaccess.com/full/279547.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: white;
+	text-shadow: 4px 4px #433a32;
+	font-weight: bold;
+}
+
+hr{
+	border: solid 3px #71998a;
+	max-width: 60px;
+	border-radius: 5px;
+	opacity: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.buffer{
+	height: 5rem;
+}
+
+.btn-xl{
+	background-color: #71998a;
+	border-color: #71998a;
+	border-radius: 50px;
+	padding: 1rem 2rem;
+	transition: 1s;
+}
+
+.btn-xl:hover{
+	background-color: #678a7d;
+	border-color: #678a7d;
+	transform: scale(1.02);
+}
